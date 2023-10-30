@@ -6,7 +6,7 @@ function Input({ placeholder = '', onChange }: {
     onChange: ChangeEventHandler<HTMLInputElement>
 }) {
     return (
-        <input onChange={onChange} type='text' placeholder={placeholder} />
+        <input onChange={onChange} autoFocus={true} type='text' placeholder={placeholder} />
     )
 }
 

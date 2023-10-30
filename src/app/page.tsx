@@ -1,5 +1,6 @@
 'use client'
 
+import { ChangeEvent } from 'react'
 import { useState } from 'react';
 import Input from '../components/Input'
 import Prices from '../widgets/Prices'
@@ -7,7 +8,7 @@ import Prices from '../widgets/Prices'
 function Home() {
   let [car_price, set_car_price] = useState(0);
 
-  const update = (event: Any) => {
+  const update = (event: ChangeEvent<HTMLInputElement>) => {
     set_car_price(Number(event.target.value));
   }
 

@@ -2,11 +2,13 @@ input[type='text'] {
     border: 1px solid #333;
     box-sizing: border-box;
     background-color: transparent;
-    padding: 8px;
-    color: #fff;
-    font-family: 'Noto Sans', sans-serif;
+    padding: 16px;
+    color: #ffa500;
+    font-family: 'Playpen Sans';
     width: 100%;
-    font-size: 11pt;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: bold;
 
     &:focus {
         outline: none;
