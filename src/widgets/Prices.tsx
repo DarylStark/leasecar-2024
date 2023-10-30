@@ -18,7 +18,7 @@ function Prices({ car_price }: { car_price: number }) {
         }
 
         gross_total_year = gross_first_part + gross_second_part;
-        net_total_year = gross_total_year * 0.52;
+        net_total_year = gross_total_year * 0.495;
         net_total_month = net_total_year / 12;
 
         parseFloat("123.456").toFixed(2);
