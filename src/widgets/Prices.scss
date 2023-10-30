@@ -1,0 +1,14 @@
+div.info_field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    p {
+        display: inline-block;
+        flex-grow: 1;
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+}

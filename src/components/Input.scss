@@ -1,0 +1,15 @@
+input[type='text'] {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 8px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    font-size: 11pt;
+
+    &:focus {
+        outline: none;
+        border-color: #fff;
+    }
+}
